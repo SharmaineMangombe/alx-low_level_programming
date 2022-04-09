@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 #include <time.h>
 
 /* more headers goes there */
@@ -22,7 +22,7 @@ int main(void)
         if (n>0)
 	{
 	      	printf("%d is positive\n",n);
-	}else if(i<0)
+	}else if(n<0)
 	{
 		printf("%d is negative\n",n);
 	}
