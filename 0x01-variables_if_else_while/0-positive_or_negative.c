@@ -22,12 +22,13 @@ int main(void)
         if (n>0)
 	{
 	  printf("is positive\n");
-	}if else(n<0)
+	}else if(i<0)
 	{
-		printf("is negative\n")
+		printf("is negative\n");
 	}
 	else{
-		printf("is zero")
+		printf("is zero\n");
+	}
 
 	 
 	 

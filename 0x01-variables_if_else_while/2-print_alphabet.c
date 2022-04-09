@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	for(in x ='A' ; x<='Z'; x++)
+	for(int x ='A' ; x<='Z'; x++)
 	{
-		putchar(tolower(x));
-		putchar(x);
+		putchar(tolower("%s\n",x));
+		putchar("%s\n",x);
 	}
 	return 0;
 }
